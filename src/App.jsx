@@ -371,8 +371,7 @@ function App() {
         <div className="pd-brand">
           <div className="pd-title-wrap">
             <span className="pd-badge-spark">✦</span>
-            <span className="pd-title">Prompt Distillery</span>
-            <span className="pd-pill-tag">v2.0 Pro</span>
+            <span className="pd-title">AI Prompt</span>
           </div>
           <div className="pd-subtitle">Turn rough ideas into high-converting, production prompts with 1-click steps</div>
         </div>
