@@ -10,4 +10,4 @@ A React prompt-generation chatbot with Quick mode and Groq-powered Smart mode.
 
 Quick mode works without an API key. Smart mode uses the `/api/groq` server route, so the key is never sent to the browser.
 
-For Vercel, add `GROQ_API_KEY` and optionally `GROQ_MODEL` in Project Settings > Environment Variables, then redeploy. The default model is `qwen/qwen3-32b`.
+For Vercel, add `GROQ_API_KEY` and optionally `GROQ_MODEL` in Project Settings > Environment Variables, then redeploy. The default model is `qwen/qwen3.8-27b`.

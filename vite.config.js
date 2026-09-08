@@ -14,7 +14,7 @@ function groqProxy() {
         }
 
         let apiKey = process.env.GROQ_API_KEY
-        let model = process.env.GROQ_MODEL || 'qwen/qwen3-32b'
+        let model = process.env.GROQ_MODEL || 'qwen/qwen3.8-27b'
 
         try {
           const envLocalPath = `${process.cwd()}/.env.local`

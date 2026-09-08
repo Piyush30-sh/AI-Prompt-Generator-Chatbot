@@ -1,4 +1,4 @@
-const DEFAULT_MODEL = 'qwen/qwen3-32b'
+const DEFAULT_MODEL = 'qwen/qwen3.8-27b'
 
 export default async function handler(request, response) {
   if (request.method !== 'POST') {
