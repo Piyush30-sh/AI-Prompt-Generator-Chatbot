@@ -1,6 +1,6 @@
 import fs from 'node:fs'
 import react from '@vitejs/plugin-react'
-import { defineConfig, loadEnv } from 'vite'
+import { defineConfig } from 'vite'
 
 function groqProxy() {
   return {
@@ -14,7 +14,7 @@ function groqProxy() {
         }
 
         let apiKey = process.env.GROQ_API_KEY
-        let model = process.env.GROQ_MODEL || 'qwen/qwen3.8-27b'
+        let model = process.env.GROQ_MODEL || 'qwen/qwen3-32b'
 
         try {
           const envLocalPath = `${process.cwd()}/.env.local`
